@@ -13,6 +13,8 @@ https://user-images.githubusercontent.com/71409094/221410477-0d799392-d4fc-4941-
 ### 1.4 Limitations & Unknowns
 ## 2. Architecture 
 ### 2.1 Data Base Structure
+![image](https://user-images.githubusercontent.com/71409094/221420994-7e26b209-c29b-481f-ad34-de15113fd19c.png)
+
 ### 2.2 System Context Diagram
 ### 2.3 Container diagram
 ## Installing and running the project
