@@ -1,4 +1,5 @@
-# E-commerce | StyleSwap [gitlab](https://github.com/Juan-Camilo-Suarez/Django-program-automation)
+# E-commerce | StyleSwap 
+[code on gitlab](https://github.com/Juan-Camilo-Suarez/Django-program-automation)
 
 
 https://user-images.githubusercontent.com/71409094/221410477-0d799392-d4fc-4941-8790-bff04b679084.mp4
