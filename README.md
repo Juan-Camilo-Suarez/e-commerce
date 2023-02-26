@@ -8,6 +8,10 @@ https://user-images.githubusercontent.com/71409094/221410477-0d799392-d4fc-4941-
 ## 1. Introduction
 
 ### 1.1 Description
+This project is a fully functional online marketplace that allows users to browse and purchase clothing items from various categories. The primary aim of this project was to explore the integration of full-stack development, combining a Django Rest Framework backend with a Vue js frontend.
+
+One of the key features of this project is the integration of a payment system, which was achieved using Stripe. This allows for secure and reliable payment processing for buyers and sellers. Additionally, the project includes an example of Dockerization, demonstrating how the application can be deployed using Nginx.
+
 ### 1.2 Main features
 ### 1.3 Assumptions
 ### 1.4 Limitations & Unknowns
