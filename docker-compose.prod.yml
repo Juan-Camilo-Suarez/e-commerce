@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  nginx:
+    image: e-commerce-api-nginx:latest
+    ports:
+      - 80
+    build:
+      context: .
+      dockerfile: deploy/nginx/Dockerfile
+    volumes:
+      - static:/app/static
+    depends_on:
+      - app
+    restart: always
+
+  frontend:
+    image: frontend-vue:latest
+    restart: always
+    build:
+      context: .
+      dockerfile: deploy/vue/Dockerfile
+    depends_on:
+      - app
+    volumes:
+      - ./simple-vuejs-app/nginx:/etc/nginx/conf.d
+    ports:
+      - 80:80
+
+  app:
+    image: e-commerce-api-python:latest
+    build:
+      context: .
+      dockerfile: deploy/python/Dockerfile
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+    volumes:
+      - static:/app/static
+
+  db:
+    image: postgres:11.1-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: market
+      POSTGRES_USER: market
+      POSTGRES_PASSWORD: market
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
+  static:
