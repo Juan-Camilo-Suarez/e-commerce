@@ -13,9 +13,31 @@ This project is a fully functional online marketplace that allows users to brows
 One of the key features of this project is the integration of a payment system, which was achieved using Stripe. This allows for secure and reliable payment processing for buyers and sellers. Additionally, the project includes an example of Dockerization, demonstrating how the application can be deployed using Nginx.
 
 ### 1.2 Main features
-### 1.3 Assumptions
-### 1.4 Limitations & Unknowns
+
+* User authentication and registration.
+
+* Product catalog: users can view a catalog of clothing items.
+
+* Search and filtering: users can search for clothing items by keyword.
+
+* Users can view their purchase history. 
+
+* Shopping cart.
+
+* Payment processing.
+
+* Swagger API.
+
+* Docker and Nginx.
+
+* Configuration to deploy on a private serve.
+
+### 1.3 Limitations & Unknowns
+* learning vue js
+* use Stripe
+
 ## 2. Architecture 
+The proposed system is a web application that will utilize the Django Rest Framework to create an efficient and secure API for communication with the database. This API will serve as the backbone of the system, allowing it to receive requests from the frontend interface, which will be created using Vue.js and Bulma.
 ### 2.1 Data Base Structure
 ![image](https://user-images.githubusercontent.com/71409094/221420994-7e26b209-c29b-481f-ad34-de15113fd19c.png)
 
