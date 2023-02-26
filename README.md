@@ -1,5 +1,21 @@
-## DRF-North-Trans
-### Installing and running the project
+# E-commerce | StyleSwap
+
+
+https://user-images.githubusercontent.com/71409094/221410477-0d799392-d4fc-4941-8790-bff04b679084.mp4
+
+
+
+## 1. Introduction
+
+### 1.1 Description
+### 1.2 Main features
+### 1.3 Assumptions
+### 1.4 Limitations & Unknowns
+## 2. Architecture 
+### 2.1 Data Base Structure
+### 2.2 System Context Diagram
+### 2.3 Container diagram
+## Installing and running the project
 1. Create a virtual environment:\
 ```python -m venv venv```
 2. Activate virtual environment:\
@@ -19,4 +35,9 @@
 ```python src/manage.py migrate```
 9. Server start:\
 ```python src/manage.py runserver```
+
+## Deploy project
+
+1. deploy with docker-compose:\
+   ```docker-compose -f docker-compose.prod.yml up -d  ```
 
