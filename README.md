@@ -45,7 +45,9 @@ The proposed system is a web application that will utilize the Django Rest Frame
 ### 2.2 System Context Diagram
 ![image](https://user-images.githubusercontent.com/71409094/221655826-9a0ec327-4eb9-4283-b759-eeaf821ec62f.png)
 
-### 2.3 Container diagram
+### 2.3 Deploy diagram
+![image](https://user-images.githubusercontent.com/71409094/221658654-1125c455-441c-42cf-86ca-869a39aa3322.png)
+
 ## Installing and running the project
 1. Create a virtual environment:\
 ```python -m venv venv```
